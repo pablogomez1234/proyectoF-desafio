@@ -1,0 +1,51 @@
+/*variables*/
+/*operaciones*/
+/*nesting*/
+header {
+  background-color: black;
+  width: 3rem;
+  padding: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: black;
+}
+
+main {
+  background-color: black;
+  width: 3rem;
+  padding: 200px;
+  display: flex;
+  justify-content: flex-start;
+}
+main h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+main p {
+  background-color: #fff;
+  color: #fff;
+}
+main .btn {
+  color: #0094db;
+}
+main .video-contenedor {
+  position: relative;
+  padding-bottom: 70%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+main .video-contenedor iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
