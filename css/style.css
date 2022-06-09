@@ -1,37 +1,29 @@
 /*variables*/
-/*operaciones*/
 /*nesting*/
-header {
-  background-color: black;
-  width: 3rem;
-  padding: 200px;
-  display: flex;
-  justify-content: flex-start;
-}
-
 h1 {
   color: black;
 }
 
-main {
+p {
   background-color: black;
-  width: 3rem;
-  padding: 200px;
-  display: flex;
-  justify-content: flex-start;
+  color: #fff;
 }
-main h2 {
+
+h2 {
   color: #fff;
   font-size: 2rem;
 }
-main p {
+
+p {
   background-color: #fff;
   color: #fff;
 }
-main .btn {
+
+.btn {
   color: #0094db;
 }
-main .video-contenedor {
+
+.video-contenedor {
   position: relative;
   padding-bottom: 70%;
   padding-top: 0px;
@@ -40,12 +32,22 @@ main .video-contenedor {
   display: flex;
   align-items: center;
 }
-main .video-contenedor iframe {
+.video-contenedor iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.main.sass {
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(46, 44, 44, 0.775);
 }
 
 /*# sourceMappingURL=style.css.map */

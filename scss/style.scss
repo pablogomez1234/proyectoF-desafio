@@ -6,41 +6,26 @@
 
 
 /*variables*/
-
+$colorbg: rgba(46, 44, 44, 0.775);
 $color-principal:black;
 $color-secundario:#fff;
 
 $medida-pricipal:200px;
 
 
-
-/*operaciones*/
-
-
-
-
-
-
 /*nesting*/
-header{
-    background-color:$color-principal;
-    width: 3rem;
-    padding:$medida-pricipal ;
-    display: flex;
-    justify-content: flex-start;
 
-}
 h1{
     color: black;
 }
 
-main{
-    background-color:$color-principal;
-    width: 3rem;
-    padding:$medida-pricipal ;
-    display: flex;
-    justify-content: flex-start;
+
+p{
+    background-color:$color-principal ;
+    color:$color-secundario ;
+}    
 h2{
+    
         color: #fff;
         font-size: 2rem;
     }
@@ -69,16 +54,11 @@ p{
 	}
 }
 
-
-
-
-
-    
-
-
-
-
-
-
-
+.main.sass{
+    background-color:$color-secundario ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color:$colorbg ;
 }
