@@ -5,8 +5,8 @@
 @import 'base/colors';
 
 
-/*variables*/
-$colorbg: rgba(46, 44, 44, 0.775);
+
+$colorbg: #0094db;
 $color-principal:black;
 $color-secundario:#fff;
 
@@ -26,14 +26,11 @@ p{
 }    
 h2{
     
-        color: #fff;
+        color:$color-principal ;
         font-size: 2rem;
     }
 
-p{
-    background-color:$color-secundario;
-    color:$color-secundario ;
-}
+
 .btn {
 	color: #0094db;
 }
