@@ -6,30 +6,6 @@
 
 
 
-$colorbg: #0094db;
-$color-principal:black;
-$color-secundario:#fff;
-
-$medida-pricipal:200px;
-
-
-/*nesting*/
-
-h1{
-    color: black;
-}
-
-
-p{
-    background-color:$color-principal ;
-    color:$color-secundario ;
-}    
-h2{
-    
-        color:$color-principal ;
-        font-size: 2rem;
-    }
-
 
 .btn {
 	color: #0094db;
