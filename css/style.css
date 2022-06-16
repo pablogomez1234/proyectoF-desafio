@@ -5,12 +5,12 @@
 
 body {
   font-family: sans-serif;
-  padding: 90px 20px 0;
+ 
 }
 
 .header {
   background-color: #0769e9;
-  height: 80px;
+  height: 80px; 
   position: fixed;
   width: 100%;
   top: 0;
@@ -18,6 +18,7 @@ body {
 }
 
 .nav {
+  color: #2c3e50;
   display: flex;
   justify-content: space-between;
   max-width: 992px;
@@ -25,7 +26,7 @@ body {
 }
 
 .nav-link {
-  color: white;
+  color:black;
   text-decoration: none;
 }
 
