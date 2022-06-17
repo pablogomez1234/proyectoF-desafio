@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.cartel {
+  background-color: #83c5f7;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -54,7 +58,7 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #034574;
+  background-color: #83c5f7;
   transition: 0.5s;
 }
 
