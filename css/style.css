@@ -1,14 +1,8 @@
 * {
+  width: 100%;
   margin: 0;
+  padding: 0%;
   box-sizing: border-box;
-}
-
-.cartel {
-  background-color: #83c5f7;
-}
-
-body {
-  font-family: sans-serif;
 }
 
 .header {
@@ -58,7 +52,7 @@ body {
 
 .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: #83c5f7;
+  background-color: #034574;
   transition: 0.5s;
 }
 
@@ -69,6 +63,7 @@ body {
   }
   .header {
     height: 60px;
+    font-size: 30px;
   }
   .logo {
     font-size: 25px;
