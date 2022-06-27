@@ -74,9 +74,6 @@ span {
 
 /* MOBILE */
 @media (max-width: 768px) {
-  body {
-    padding-top: 10px;
-  }
   .header {
     height: 60px;
     font-size: 30px;
