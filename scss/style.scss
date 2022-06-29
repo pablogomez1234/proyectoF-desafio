@@ -11,12 +11,7 @@
 }
   
 
-  .header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-  }
+  
   .carousel-caption {
     position: absolute;
     right: 15%;
@@ -51,6 +46,9 @@
     margin-right: 40px;
     list-style: none;
   }
+  h2{
+    color: #000;
+  }
   
   .nav-menu-item {
     font-size: 18px;
@@ -72,11 +70,7 @@
   }
   
   
-  
-  
-  
-  //dffddfgd//
-
+//dffddfgd//
 .content{
   background: #fff;
   color: #fff;
@@ -107,7 +101,7 @@ ul {
 }
 
 .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .2);
 }
 
 .contact-wrapper > * {
@@ -189,5 +183,4 @@ ul {
       text-align: left;
   }
 }
-
 
